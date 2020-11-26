@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser'); // 获取前端页面的cookie
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var wx = require('./routes/pay/wx');
+var wx = require('./routes/wx/wx');
 
 var app = express();
 
